@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-gold: #CA9C4E;
+  --color-cream: #FDF3E8;
+  --color-ivory: #FAF6EE;
+  --color-mocha: #74635b;
+  --color-cocoa:#392316;
+  --color-border:#E1C69A;
+  --color-primary-foreground:white;
+  --color-champagne:#F7E6CA;
+  
+ 
+  --font-display: "Satoshi", "sans-serif";
+  
+}
+
+
+html, body {
+  height: auto;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+#root {
+  height: auto;
+  min-height: 100vh;
+}
