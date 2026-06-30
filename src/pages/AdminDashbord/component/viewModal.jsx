@@ -64,7 +64,7 @@ function ViewModal({ profile, onClose }) {
             {profile.photos.map((photo, i) => (
               <img
                 key={i}
-                src={`${import.meta.env.VITE_BACKEND_URL}${photo}`}
+                src={photo.url}
                 alt={`Profile photo ${i + 1}`}
                 className="w-16 h-16 rounded-md object-cover border border-gray-200"
               />
